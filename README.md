@@ -5,7 +5,9 @@ Just a little bit of javascript, all of my javascript got deleted (forgot to sav
 
 
 // Input Lock
+
 $('textarea').blur(function () {
+
     $('#hire textarea').each(function () {
         $this = $(this);
         if ( this.value !== '' ) {
